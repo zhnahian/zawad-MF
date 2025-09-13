@@ -1,20 +1,26 @@
-.h1{ 
-    colour:red
-
-}
-h1{
-    color: gold;
-}
-#h1{
-    color: blueviolet;
-}
-.box{
-    width: 200px;
+.header{
     height: 100px;
-    /* background-color: rgb(73, 90, 90,.1); */
-    background-color: #739090;
+    background-color: brown;
 }
-table,thead,  tbody  ,tbody,tr,th,td{
-    border: 1px solid black;
-    
+.a{
+    h1{
+        display: inline;
+    }
+.w{
+    display: block;
+}
+
+p{
+    display: inline-block;
+}
+}
+.b{
+    h1,p{
+        display: inline-block;
+    }
+.w{
+    display: block;
+}
+
+
 }
