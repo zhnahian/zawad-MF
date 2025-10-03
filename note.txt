@@ -1,3 +1,6 @@
-.h1{ 
-    colour:red
-}
+font-family: "Playfair Display", serif;
+ font-family: "Ubuntu", sans-serif;
+
+
+ logo:#000000
+ menu:#626262

@@ -1,26 +1,133 @@
-.header{
-    height: 100px;
-    background-color: brown;
+/* common css  S*/
+body{
+    margin: 0;
+font-family: "Playfair Display", serif;
+font-weight:400;
+font-size:16px;
+color:#626262;
 }
-.a{
-    h1{
-        display: inline;
-    }
-.w{
-    display: block;
+.width100{
+    width: 100%;
 }
+/* common css  E*/
+/* header S */
 
-p{
+header{
+   padding: 40px 0;
+/* border: 1px solid brown; */
+}
+.container{
+    overflow: hidden;
+     margin: 0 auto;
+    width: 90%;
+     /* border: 1px solid blueviolet; */
+    } 
+
+.logo {
+    margin-top: 8px;
+    width: 12%;
+    float: left;
+}
+.logo a{}
+/* .logo a img{} */
+.logo_img{
+    /* width: 100%; */
+     /* border: 1px solid; */
+}
+.menu{
+    width: 60%;
+     /* border: 1px solid; */
+     float: right;
+     
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    /* overflow: hidden; */
+     float: left; 
+    list-style: none;
+}
+.menu ul li a{
+
+    color:#626262 ;
+    margin: 0 45px;
     display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+     border-bottom: 1px solid transparent; 
+    transition: .33s linear;
+    /* float: left; */}
+.menu ul li:last-child a{
+    margin-right: 0;
 }
-}
-.b{
-    h1,p{
-        display: inline-block;
-    }
-.w{
-    display: block;
+.menu ul li a:hover{
+    /* color:#000000 */
+     border-bottom: 1px solid #626262 
 }
 
+/* header E */
+ /* <!-- banner S --> */
+  .banner{}
+   .b_img{}
+   .banner_img{}
 
-}
+ /* <!-- banner E--> */
+   /* article S */
+   .artical{
+    padding: 100px 0;
+   }
+   
+   .container2{
+    margin: 0 auto;
+    width: 80%;
+    border: 1px solid bisque;
+
+
+   }
+   .a_container{
+    
+   }
+   .c_light{
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 14px;
+    font-weight: 300px;
+    /* color: #626262; */
+    text-transform: uppercase;
+   }
+   .c_title{
+    margin: 20px 0 25px;
+    font-size: 30px;
+    font-weight: 400px;
+
+   }
+   .c_text{
+    margin: 0;
+    line-height: 24px;
+
+   }
+   .a_link{
+    margin-top: 45px;
+    
+    color: #626262;
+    text-decoration: none;
+    display: inline-block;
+   }
+
+   /* article E */
+ /* blog --> S*/
+ .blog{
+  padding: 100px 0; 
+
+ }
+ 
+ .blog_single{
+    width: 45%;
+    border: solid 1px;
+ }
+.bs_img{ 
+   margin-bottom: 25px; 
+ }
+
+ /* blog --> E*/
