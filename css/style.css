@@ -20,7 +20,7 @@ header{
     overflow: hidden;
      margin: 0 auto;
     width: 90%;
-     /* border: 1px solid blueviolet; */
+      border: 1px solid blueviolet; 
     } 
 
 .logo {
@@ -31,7 +31,7 @@ header{
 .logo a{}
 /* .logo a img{} */
 .logo_img{
-    /* width: 100%; */
+     width: 100%; 
      /* border: 1px solid; */
 }
 .menu{
@@ -74,15 +74,15 @@ header{
 
  /* <!-- banner E--> */
    /* article S */
-   .artical{
-    padding: 100px 0;
+   .article{
+    padding: 100px 0 30px;
    }
    
    .container2{
     margin: 0 auto;
     width: 80%;
     border: 1px solid bisque;
-
+overflow: hidden;
 
    }
    .a_container{
@@ -92,14 +92,14 @@ header{
     margin: 0;
     font-family: "Ubuntu", sans-serif;
     font-size: 14px;
-    font-weight: 300px;
+    font-weight: 300;
     /* color: #626262; */
     text-transform: uppercase;
    }
    .c_title{
     margin: 20px 0 25px;
     font-size: 30px;
-    font-weight: 400px;
+    font-weight: 400;
 
    }
    .c_text{
@@ -118,16 +118,120 @@ header{
    /* article E */
  /* blog --> S*/
  .blog{
-  padding: 100px 0; 
+  padding: 0 0 100px; 
 
  }
  
  .blog_single{
-    width: 45%;
+    margin-top: 70px;
+    box-sizing: border-box;
+    width: 48%;
     border: solid 1px;
+    float: left;
  }
 .bs_img{ 
    margin-bottom: 25px; 
  }
+ .blog_single:nth-child(even){
+    /* background-color: red; */
+    margin-left: 4%;
+ }
 
  /* blog --> E*/
+/* newsletter S */
+.nl{
+    min-height: 300px;
+    background-color: #f0f0f0;
+}
+
+/* newsletter E */
+/* blog2 S*/
+.blog2{
+    padding: 30px 0 100px;
+}
+
+
+
+/* blog2 E */
+/* load S*/
+.load{
+    text-align: center;
+
+}
+
+.c_btn{
+    margin: 100px 0 50px;
+    padding: 16px 30px;
+    border: 2px solid #626262;
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #626262;
+    line-height: 24px;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.33s linear;
+}
+.c_btn:hover{
+    background-color: #626262;
+    color: #fff;
+}
+
+/* load E*/
+ /* footer L*/
+.f_left{
+    float: left;
+    width: 33%;
+    color: black;
+  
+}
+.f_left ul{
+}
+.f_left ul li{
+    margin: 7px;
+    list-style: none;
+    float: left;
+}
+
+.f_left ul li a{
+    margin: 31px 7px;
+    display: inline-block;
+    font-size: 14px;
+    color: #000; ;
+ text-decoration: none;
+}
+
+
+
+.f_right{
+    float: right;
+    width: 25%;
+}
+.f_right ul{
+    float: right;
+}
+.f_right ul li{
+      margin: 7px; 
+    list-style: none;
+    float: left;
+}
+.f_right ul li a{
+    margin: 31px 7px;
+    display: inline-block;
+    font-size: 14px;
+    color: #000; ;
+ text-decoration: none;
+}
+.f_right ul li a img{
+    width: 100%;
+}
+.f_right ul li span{
+   margin: 28px 7px; 
+    display: inline-block;
+
+}
+.f_right ul li a img:last-child{
+    margin-right: 0;
+}
+
+ /* footer R*/
