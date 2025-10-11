@@ -138,13 +138,71 @@ overflow: hidden;
  }
 
  /* blog --> E*/
+
+
+
 /* newsletter S */
+
 .nl{
-    min-height: 300px;
+    padding: 70px 0;
     background-color: #f0f0f0;
 }
+.sign_up{
+text-align: center;
+
+}
+
+.s_h1{
+    color: #000; 
+    margin-top: 0px;
+    margin-bottom: 70px;
+}
+.s_form{
+     position: relative;
+    width: 400px;
+    /* border: 3px solid red; */
+    margin: 0 auto;
+}
+.s_form input{
+    
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #626262;
+    height: 45px;
+    width: 345px;
+    border: none;
+     border-bottom: 1px solid  #626262; 
+    background: transparent;
+        padding-left: 5px;
+       padding-right: 45px;
+}
+.s_form input:focus{
+    outline: 0;
+}
+.s_form button{
+    position: absolute;
+    background: transparent;
+    border: none;
+    cursor:pointer;
+    top: 14px;
+    right: 0;
+
+
+}
+.s_form button:focus{
+    outline:0;
+}
+
+
+.s_form button img{}
 
 /* newsletter E */
+
+
+
+
+
 /* blog2 S*/
 .blog2{
     padding: 30px 0 100px;
@@ -178,60 +236,78 @@ overflow: hidden;
 }
 
 /* load E*/
+
+/* footer S */
+footer{
+     padding: 35px 0; 
+     background-color: #f0f0f0;
+}
  /* footer L*/
 .f_left{
-    float: left;
-    width: 33%;
-    color: black;
-  
+ width: 30%; 
+  float: left;
+  border: 1px solid rgb(21, 255, 0);
 }
-.f_left ul{
+.f_ul_l{
+    /* margin: 0;
+    padding: 0; */
+    overflow: hidden;
+
 }
-.f_left ul li{
-    margin: 7px;
-    list-style: none;
-    float: left;
+.f_left ul li, .f_right ul li{
+ list-style: none;
+ float: left;
+   
 }
 
 .f_left ul li a{
-    margin: 31px 7px;
+   margin-right: 15px;
     display: inline-block;
     font-size: 14px;
-    color: #000; ;
- text-decoration: none;
+    color: #626262;
+   text-decoration: none;
 }
 
 
 
 .f_right{
-    float: right;
-    width: 25%;
+  width: 30%;
+  float: right;
+  border: 1px solid rgb(160, 28, 149);
+
 }
-.f_right ul{
+.f_ul_r{
+      /* margin: 0;
+    padding: 0; */
     float: right;
+    /* overflow: hidden; */
+
 }
+
 .f_right ul li{
-      margin: 7px; 
-    list-style: none;
-    float: left;
+  list-style: none;
+  float: left;
 }
-.f_right ul li a{
-    margin: 31px 7px;
-    display: inline-block;
-    font-size: 14px;
-    color: #000; ;
+ .f_right ul li a{ 
  text-decoration: none;
-}
+display: inline-block;
+margin-left: 15px; 
+ } 
 .f_right ul li a img{
-    width: 100%;
+    
 }
 .f_right ul li span{
-   margin: 28px 7px; 
-    display: inline-block;
+   
+    
 
 }
 .f_right ul li a img:last-child{
-    margin-right: 0;
+    
 }
 
+.f_ul{
+ margin: 0;
+    padding: 0;
+}
  /* footer R*/
+/* footer E */

@@ -1,0 +1,42 @@
+.position{
+    
+    border: 5px solid red;
+    /* position: absolute; */
+    min-height: 300px;
+    position: relative;
+}
+.box{
+position: absolute;
+ width: 200px;
+height: 100px;
+}
+.box1{
+    background-color: rgb(65, 37, 42);
+z-index: 1;
+top: 0;
+left: 0;
+}
+.box2{
+    background-color: green;
+    z-index:  2; 
+    left: 0;
+    right:0;
+    margin:100px auto ;
+
+}
+.box3{
+    background-color:black;
+    /* right: 123px; */
+    top: 0;
+    right: 0;
+}
+.box4{
+    background-color: blue;
+    right: 0;
+    bottom: 0; 
+}
+.box5{
+    background-color: aqua;
+    /* left: 0; */
+    bottom: 0;
+}
