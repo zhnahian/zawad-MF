@@ -26,53 +26,82 @@
      <!-- css link E -->
 </head>
 <body>
-<div class="container" >
-<form action="#" class=" needs-validation" novalidate>
-    <div class="mb-3">
-<label for="name" class="form-lable mb-3">Enter your name</label>
-<input type="text" class="form-control mb-3" id="name" required>
-<!-- <input type="text" class=" form-control " id="" placeholder="Enter your name" required> -->
- <div class="valid-feedback">
-       good job!
+   
+
+<section class="banner">
+  <div class="row">
+    <div class="col-lg-6 col-md-7 col-sm-10">
+      <div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators custom-ind">
+    <button  type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button  type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button  type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <!-- 1 item start -->
+    <div class="carousel-item active">
+     <div class="slider">
+      <h1>Lorem ipsum dolor sit.</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, omnis. Quidem dolore commodi magnam quod!</p>
+      <button>click</button>
+     </div>
     </div>
-    <div class="invalid-feedback">
-        Please enter your name.
-      </div>
-</div>
-<div class="mb-3">
-<!-- <input type="submit"> -->
-<!-- <button type="submit" class="btn btn-dark">click here</button>
-</div> -->
-
-    <div class="mb-3">
-<label for="email" class="form-lable mb-3">Enter your email</label>
-<input type="email" class="form-control mb-3" id="email" required>
-<!-- <input type="text" class=" form-control " id="" placeholder="Enter your email" required> -->
- <div class="valid-feedback">
-       good job!
+    <!--1 item E -->
+  
+    <!-- 2 item start -->
+    <div class="carousel-item ">
+     <div class="slider">
+      <h1>Lorem ipsum dolor sit.</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, omnis. Quidem dolore commodi magnam quod!</p>
+      <button>click</button>
+     </div>
     </div>
-    <div class="invalid-feedback">
-        Please enter your email address.
-      </div>
+    <!--2 item E -->
+  
+    <!-- 3 item start -->
+    <div class="carousel-item ">
+     <div class="slider">
+      <h1>Lorem ipsum dolor sit.</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, omnis. Quidem dolore commodi magnam quod!</p>
+      <button>click</button>
+     </div>
+    </div>
+    <!--3 item E -->
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
-<div class="mb-3">
-<!-- <input type="submit"> -->
-<button type="submit" class="btn btn-dark">click here</button>
+    </div>
+  </div>
+</section>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <p class="d-inline-flex gap-1">
+  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+    Link with href
+  </a>
+  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    Button with data-bs-target
+  </button>
+</p>
+<div class="collapse" id="collapseExample">
+  <div class="card card-body">
+    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+  </div>
 </div>
-
-
-
-
-
-
-</form>
-
-
-
+    </div>
+  </div>
 </div>
-
-
-
+   
 <!-- java link S -->
 <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
