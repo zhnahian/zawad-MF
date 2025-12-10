@@ -2,54 +2,278 @@
 @media (max-width: 575.98px) { 
    /* .lime , .red{
     display: none;
-   }
-  */
-  .slider {
-padding: 20px 40px;
+   } 
+  */ 
+  body{
+    padding-top: 89px;
+  }
+  /* <!-- header S*/
+  
+    header{
+    padding: 10px 0;
+  }
+.menu ul li a {
+padding:12px 0 0px !important ;
+font-size: 20px;
+text-align:right ;
+ 
 }
-.slider button {
-    margin-bottom: 45px;
+ /* <!-- header E*/
+
+
+  /* slider S */
+ .slider{
+  padding-bottom: 60px;
 }
-.slider p {
-    font-size: 16px;
+.s_text {
+    margin-top: 0px;
 }
-.custom-ind [data-bs-target] {
-    width: 11px;
-    height: 11px;
+.s_text h1 {
+  font-size: 25px;
+}
+.s_text h2 {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  .s_text p {
+    margin-bottom: 20px;
+  }
+.c_ind{
+    bottom: -60px;
+}
+
+.c_ind [data-bs-target]  { 
+        width: 13px;
+    height:13px;} 
+  .s_icon ul li{
+    margin-right: 15px !important ;
+  }
+  .s_icon ul li i {
+     font-size: 35px !important;  
+  }
+ /* slider E */
+
+ /* feature  S */
+.c-padding{
+   padding-top: 50px;
+   padding-bottom: 70px ;
+}
+
+.c_h1 {   
+   font-size: 25px;
+   margin-bottom: 10px;
+  }
+  .c_p {
+      font-size: 17px;
+      line-height: 25px;
+    }
+
+
+    .f_item{
+      margin-top: 30px;
+    }
+    .f_icon i {
+      margin-top: 0px;
+    font-size: 35px; 
+}
+    .f_text{
+  text-align: center;
+}
+
+.f_text h2 {
+      margin-bottom: 0px;
+    font-size: 20px;
+  }
+.f_text p {
+    letter-spacing: 0px;
+}
+ /* feature  E */
+
+
+/* contact S */
+.c-form {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+.c-input {
+    width: 100%;
+    padding: 10px 10px;
   }
 
+  .c-submit {
+    width: 100%;
+    padding: 10px 10px;
+  }
+    .c-icon li{
+    margin-right: 20px !important;
+  }
+  .c-icon li i {
+    font-size: 38px;
+  }
+/* contact E */
+/* footer  S*/
+footer{
+  padding-bottom: 70px;
+}
+.f-1{
+  margin-bottom: 0px;
+}
+.f-2{
+  margin-top: 40px;
+}
+/* footer E */
 }
  /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) { 
 
-/* .red{
-  display: none;
-} */
+ body{
+    padding-top: 89px;
+  }
+  /* <!-- header S*/
 
- }
+.menu ul li a {
+padding:12px 0 0px !important ;
+font-size: 20px;
+text-align:right ;
+  
+}
+ /* <!-- header E*/
+ /* slider S */
+ .slider{
+  padding-bottom: 60px;
+}
+.s_text {
+    margin-top: 0px;
+}
+.s_text h1 {
+  font-size: 25px;
+}
+.s_text h2 {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  .s_text p {
+    margin-bottom: 20px;
+  }
+.c_ind{
+    bottom: -55px;
+}
+
+.c_ind [data-bs-target]  { 
+        width: 13px;
+    height:13px;} 
+  .s_icon ul li{
+    margin-right: 20px !important ;
+  }
+  .s_icon ul li i {
+     font-size: 35px !important;  
+  }
+ /* slider E */
+/* feature  S */
+.c-padding{
+   padding-top: 50px;
+   padding-bottom: 70px ;
+}
+
+
+.c_h1 {   
+   font-size: 25px;
+   margin-bottom: 10px;
+  }
+  .c_p {
+      font-size: 17px;
+      line-height: 25px;
+    }
+    .f_item{
+      margin-top: 30px;
+    }
+    .f_icon i {
+      margin-top: 0px;
+    font-size: 35px; 
+}
+    .f_text{
+  text-align: center;
+}
+
+.f_text h2 {
+      margin-bottom: 0px;
+    font-size: 20px;
+  }
+.f_text p {
+    letter-spacing: 0px;
+}
+/* feature  E*/
+ 
+/* contact S */
+.c-form {
+    margin-top: 35px;
+    margin-bottom: 40px;
+  }
+.c-input {
+    width: 100%;
+    padding: 10px 10px;
+  }
+
+  .c-submit {
+    width: 100%;
+    padding: 10px 10px;
+  }
+  .c-icon li{
+    margin-right: 25px !important;
+  }
+  .c-icon li i {
+    font-size: 40px;
+  }
+/* contact E */
+/* footer  S*/
+footer{
+  padding-bottom: 70px;
+}
+.f-1{
+  margin-bottom: 40px;
+}
+/* footer E */
+}
 
  /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) { 
-.slider h1{ 
-      font-size:23px;
+  /* <!-- header S*/
+.menu ul li a {
+padding:12px 0 0px !important ;
+text-align:right ;
 }
-.slider p {
-    font-size: 18px;
+
+ /* <!-- header E*/
+
+/* feature  S*/
+
+.c-padding{
+   padding-top: 80px;
+   padding-bottom: 100px ;
 }
-.slider button {
-    margin-bottom: 40px;
+
+.f_item{
+    margin-top: 50px;
 }
- .custom-ind {
-    margin-bottom: 30px;
+/* feature E */
+
+
+
+ /* contact S */
+ .c-form {
+    margin-top: 65px;
+    
+    margin-bottom: 70px;
 }
-.custom-ind [data-bs-target] {
-    width: 13px;
-    height: 13px;
-  }
-  
-.slider {
-  padding: 60px;
+
+ /* contact E */
+/* footer S */
+footer{
+  padding-bottom: 100px;
 }
+/* footer E */
+}
+
  /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) { 
 
