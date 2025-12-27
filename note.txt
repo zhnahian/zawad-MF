@@ -1,54 +1,32 @@
-pt sans:bold,reg
-fonts-------S
-font-family: "PT Sans", sans-serif;
-font-family: "PT Sans", sans-serif;
-fonts-------E
+font{
+oxygen 
+        reg       16,22
+        bold      45,36
+
+exo   
+     reg  semi-b     16,20
+
+
+c0mmon
+oxygen 
+        reg       16 white
 
 
 
-color-------S
-ash #898989
-black #010101 
-yellow #fcdb00
-color-------E
 
 
 
-xxl
-xl
-l
-=====
-md
-======
-sm
-xm
-
-=================================
 
 
-header=======
-      xxl,xl,L     md    sm/col
-menu   
+weight 700   400,700,500     400
+font-family: "Poppins", sans-serif;
+font-family: "Roboto", sans-serif;
+}
+c-popping 400
+color-
+red:#FD511A
+black:#000000
+green:#21B573
 
 
-        padding==========
-          xxl,xl,L     md    sm/col
-
-header t-b  20px      
-
-
-fearure============
-        xxl,xl,L     md    sm/col
-P-T    100px
-p-b     120px
-   font
-   size:
- mt        70        50      30
-h1       32px        32px    25px
-
-p         20px        20px   17px
-
-
-icon      50          50        35
-h2         22         22      20/18
-p          16         16      16
+c0mmon:black
