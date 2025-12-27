@@ -1,39 +1,106 @@
 /* font link S */
  
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
 /* font link E */
 
 
 
 
-/* common Css S */
+
 :root{
-   -- red:#FD511A;
+   --l_gray:#CECCCC;
 --black:#000000;
---green:#21B573;
-
---pop:"Poppins", sans-serif;
---rob: "Roboto", sans-serif;
-
+--gray:#6E6E6E;
+--white:white;
+--exo:"Exo", sans-serif;
+--oxy:  "Oxygen", sans-serif;
+--choc:#282828;
 }
+/* common Css S */
 body{
-font-family: var(--pop);
+font-family: var(--oxy);
 font-size: 16px;
 font-weight: 400;
-color: var(--black);
+color: var(--white);
 }
 
 /* common Css E*/
 /* header S*/
-header{}
+
+header{
+    padding: 15px 0;
+    background-color: var(--gray);
+}
 .nav_c{}
 .logo{}
 .n_btn{}
 .menu{}
-.menu ul li a{}
-/* header E*/
-h1{
-    color: var(--green);
-    font-family: var(--rob);
+.menu ul li a{
+    padding: 0 20px !important;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--white) !important;
 }
+.menu ul li a:hover{
+    color: var(--black) !important;
+}
+.dw_2{
+    margin: 0 15px !important;
+    list-style: none;
+}
+/* header E*/
+/* <!-- banner S */
+.banner{
+    padding:100px 0 120px ;
+    background-color: var(--gray);
+}
+.b_item{
+    
+}
+.b_h1{
+    font-size: 45px ;
+    font-weight: 700 ;
+}
+.b_p{
+    color: var(--l_gray);
+    margin: 35px 116px ;
+}
+.b-form{
+    position: relative;
+    border: var(--l_gray);
+    
+}
+.b-form input{
+     
+    font-family: var(--exo);
+    font-size: 14px;
+    font-weight:400 ;
+    color: var(--l_gray);
+    width: 344px;
+    height: 56px;
+    padding-left: 10px;
+    padding-right:45px ;
+    border-radius: 42px;
+   
+background-color: transparent;
+}
+.b-search{
+    position: absolute;
+    top: 0;
+    right: 64px;
+   border: none; 
+}
+.search-img{
+   background-color: var(--choc); 
+   border-radius: 50%;
+   width:40px ;
+   height:40px ;
+}
+.search2-img{
+    margin-top:11px ;
+}
+
+
+
+/* <!-- banner E */
