@@ -1,222 +1,39 @@
- /* common Css S */
-.body{
-   font-family: "PT Sans", sans-serif; !important
-    font-size: 16px; 
-    font-weight: 400px;
-    color:#898989 ; 
-    padding-top: 109px;
+/* font link S */
+ 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+/* font link E */
+
+
+
+
+/* common Css S */
+:root{
+   -- red:#FD511A;
+--black:#000000;
+--green:#21B573;
+
+--pop:"Poppins", sans-serif;
+--rob: "Roboto", sans-serif;
+
 }
-.c-padding{
-     padding-top: 100px;
-   padding-bottom: 120px ;
+body{
+font-family: var(--pop);
+font-size: 16px;
+font-weight: 400;
+color: var(--black);
 }
+
 /* common Css E*/
-/* header S */
-header{
-    background-color: #fcdb00;
-    padding: 30px 0;
-}
-.c-nav{}
+/* header S*/
+header{}
+.nav_c{}
 .logo{}
+.n_btn{}
 .menu{}
-.menu ul li a {
-    font-size: 22px;
-    font-weight: 700;
-    color: #010101 !important  ;
-    padding: 0 50px !important ;
+.menu ul li a{}
+/* header E*/
+h1{
+    color: var(--green);
+    font-family: var(--rob);
 }
-.menu ul li:last-child a {
-    padding-right:0px !important ;
-}
-.menu ul li a:hover{
-    color: white !important ;
-}
-
-/* header E */
-/* slider S */
-.slider{
-background-color: #fcdb00;
-padding-bottom: 100px;
-}
-
-/* indicators S*/
-.c_ind{
-    bottom: -80px;
-}
-
-.c_ind [data-bs-target]  { 
-        width: 15px;
-    height:15px;
-    border-radius: 50%;
-        /* transition: opacity 0.6s 
-ease;
-opacity: 0.7; */
-
-    background-color: white;
-
-}
-/* .carousel-indicators .active {
-    opacity: 1;
-    background-color: #010101;
-} */
-/* indicators E*/
-
-
-
-.s_text{}
-.s_text h1{  
-    font-family: "PT Sans", sans-serif; 
-      font-size:32px ;
-    font-weight: 700;
-  
-    color:#010101 ;
- }
-.s_text h2{
-    margin: 20px 0;
-        font-family: "PT Sans", sans-serif; 
-      font-size: 20px ;
-    font-weight: 400;
-    color:#313841 ;
-}
-.s_text p{
-    margin-bottom: 35px;
-        font-family: "PT Sans", sans-serif; 
-      font-size: 20px ;
-    font-weight: 400;
-    color:#555555 ;
-}
-.s_text{ 
-    margin-top: 50px;
-}
-.s_icon{}
-.s_icon ul li{
-    margin-right: 30px !important;
-}
-.s_icon ul li i{
-    font-size: 42px;
-color: #010101;
-transition: 0.3s;
-}
-.s_icon ul li i:hover{
-/* transform: scale(1.2);  */
-transform: scale(0.8)  ;  
-color: white;
-}
-.s_img{}
-.s_img img{}
-
-/* slider E */
-/* feature S */
-.feature{
-  
-}
-.c_title{
-
-}
-.c_h1{
-    margin-bottom: 15px;
-     font-size: 32px;
-    font-weight: 700;
-    color:  #010101;
-}
-.c_p{
-    font-size: 20px;
-    color: #313841;
-    line-height: 28px;
-}
-.f_item{
-    margin-top: 70px;
-}
-
-.f_icon{}
-.f_icon i{
-    margin-top: 2px ;
-    
-    font-size: 50px;
-    color: #010101;
-    transition: 0.3s;
-}
-.f_icon i:hover{
-    transform: scale(.8);
-}
-.f_text{}
-.f_text h2{
-    margin-bottom: 10px;
-    font-size: 22px;
-    font-weight: 400px; 
-    color: #010101;
-}
-.f_text p{
-    letter-spacing: 1px;
-}
-
-
-/* feature E*/
-/* contact S */
-.contact{
-    background-color: #010101;
-}
-.yellow{
-    color: #fcdb00;
-}
-.ash{
-    color:#898989;
-}
-.c-form{
-    margin-top: 35px ;
-    margin-bottom: 70px ;
-}
-.c-input{
-    width: 100%;
-    height: 55px;
-    font-family: "PT Sans", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    color: #898989;
-    padding: 15px 20px;
-}
-.c-submit{
-    width: 100%;
-    height: 55px;
-    background-color:#fcdb00;
-    font-family: "PT Sans", sans-serif;; 
-    font-size:16px ;
-    font-weight:700 ;
-    color:#010101 ;
-    text-transform: uppercase;
-}
-
-.c-submit:hover{
-    background-color: #fff;
-    }
-    .c-icon{}
-    .c-icon li{
-        margin-right: 30px !important;
-    }
-    .c-icon li:last-child{
-        margin-right: 0px !important;
-    }
-     .c-icon li i{
-        font-size: 42px;
-        color: #fcdb00;
-        transition: 0.3s;
-     }
-.c-icon li i:hover{
-    color: #fff;
-}
-/* contact E */
-/* footer S */
-footer{
-    background-color: #010101;
-    padding-bottom: 120px;
-}
-.f-1{}
-.f-1 address{
-    color: #fff;
-}
-.f-2{}
-.f-2 p a{
-    color: #fff;
-    text-decoration: none;
-}
-/* footer  E*/
