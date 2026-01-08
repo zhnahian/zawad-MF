@@ -32,9 +32,74 @@ text-align:left ;
    
     right: -10px;
   }
-/* <!-- banner E */
-}
 
+    
+       .f_h2 h2 {
+        margin: 0 -16px;
+        font-size: 17px;
+    } 
+
+
+    .f_p p {
+        margin-left: 38px;
+    }
+
+/* <!-- banner E */
+
+/* catagory S  */
+.readmore_h1 {
+    text-align: center;}
+    .readmore_btn {
+    margin-left: -36px;
+}
+.cy-title p {
+    
+    margin: 54px 16px 68px;}
+.cy_content{
+  margin-bottom: 33px;
+    width: 260px;
+    height: 371px;}
+  .item_1 {
+    width: 305px;
+    height: 242px;
+  
+  }
+/* catagory E  */
+ /* product S    */
+
+ .product_up {
+    margin: 0 6px 16px 39px;
+}
+.product_button {
+    margin: 44px 0px 30px 70px;
+}
+ /* product E    */
+ /* readmore S*/
+ .readmore{
+    padding-bottom: 150px;}
+ .readmore_up {
+    padding: 110px 0px 281px 24px;
+}
+.readmore_p {
+    text-align: center;
+    margin-top: -197px;
+}
+.read99 {
+    text-align: center;
+    /* margin-left: 192px;*/
+}
+.read100 {
+    text-align: center;}
+    /* margin-left: 192px; */
+ /* readmore E*/
+/* <!-- question --> */
+ .question_left{
+  text-align: center;
+ }
+
+
+/* <!-- question --> */
+}
  /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) { 
 
@@ -62,15 +127,75 @@ text-align:left ;
   
 .b-search {
    
-    right: -111px;
+           right: -9px;
   }
 
 /* banner  E*/
+
+/* feature S */
+.f_p p {
+    margin-left: 119px;}
+    .price ul li p {
+    margin-left: 81px;
+}
+.f_h2 h2 {
+   
+    font-size: 25px;}
+.plus {
+    margin-right: 111px;
+}
+
+/* feature E */
+
+/* cagory S*/
+.cy-title p {
+    
+    margin: 51px 78px 68px;}
+.item_1 {
+   
+    margin-top: 34px;
 }
 
 
-/* <!-- banner E */
+/* cagory E*/
 
+ /* product S    */
+
+ .product_up {
+    margin: 0 6px 16px 39px;
+}
+.product_button {
+    margin: 44px 0px 30px 155px;
+}
+ /* product E    */
+
+ /* readmore S*/
+ .readmore{
+    padding-bottom: 150px;}
+ .readmore_up {
+    padding: 110px 0px 281px 24px;
+}
+.readmore_p {
+    text-align: center;
+    margin-top: -197px;
+}
+.read99 {
+    text-align: center;
+    /* margin-left: 192px;*/
+}
+.read100 {
+    text-align: center;}
+    /* margin-left: 192px; */
+ /* readmore E*/
+ /* <!-- question --> */
+ .question_left{
+  text-align: center;
+ }
+
+
+/* <!-- question --> */
+
+}
  /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) { 
   /* <!-- header S*/
@@ -93,9 +218,71 @@ text-align:left ;
 
 /* banner  E*/
 }
+/* feature S */
+
+.f_p p {
+    margin-left: 237px;
+  }
+  
+/* feature E */
+/* catagory S*/
+.product_h1 {
+    margin-left: 124px;}
+.product_p {
+    margin: 0 79px;}
+    .product_button {
+        margin: 26px 238px;
+        
+    }
+
+
+.product_up{
+  align-items: center;
+}
+/* .product_button{
+  align-items: center;
+} */
+.cy-title p {
+  
+    margin: 0 95px 68px;}
+.item_1 {
+  
+    margin-top: 30px;
+}
+.cy-title p {
+        margin: 0  0 79px 68px;
+    }
+
+
+/* catagory E*/
+
+/* readmore S*/
+.readmore{
+    padding-bottom: 150px;}
+ .readmore_up {
+    padding: 110px 0px 281px 24px;
+}
+.readmore_p {
+    text-align: center;
+    margin-top: -197px;
+}
+.read99 {
+    text-align: center;
+    /* margin-left: 192px;*/
+}
+.read100 {
+    text-align: center;}
+    /* margin-left: 192px; */
+ /* readmore E*/
+ /* <!-- question --> */
+ .question_left{
+  text-align: center;
+ }
+
+
+/* <!-- question --> */
 
 }
-
  /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) { 
 /* banner  S*/
